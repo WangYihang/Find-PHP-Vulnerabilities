@@ -1,0 +1,3 @@
+[
+    { "caption": "Find vulnerabilities of php files", "command": "vulnerabilitiesofphp" },
+]

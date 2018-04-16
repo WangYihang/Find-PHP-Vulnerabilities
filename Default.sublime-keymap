@@ -1,7 +1,6 @@
 [
-	{ "keys": ["ctrl+alt+p"], "command": "vulnerabilitiesofphp", "context":{
-        "key": "panel",
-        "operator": "equal",
-        "operand": true
-	}}
+	{ 
+		"keys": ["ctrl+alt+p"],
+		"command": "vulnerabilitiesofphp"
+	}
 ]
