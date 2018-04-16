@@ -9,7 +9,7 @@ A plug-in of sublime 2/3 which is able to find PHP vulnerabilities
 #### Usage:
 ```
 1. Open vulnable php file
-2. Press key: CTRL + ALT + P
+2. Press key: CTRL + SHIFT + ALT + P
 ```
 
 #### Example:
