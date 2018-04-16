@@ -1,6 +1,6 @@
 [
 	{ 
-		"keys": ["ctrl+alt+p"],
+		"keys": ["ctrl+alt+shift+f1"],
 		"command": "vulnerabilitiesofphp",
 		"context": [
             {"key": "selector", "operator": "equal", "operand": "source.php"}
