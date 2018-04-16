@@ -1,6 +1,6 @@
 [
 	{ 
-		"keys": ["ctrl+alt+p"],
+		"keys": ["ctrl+alt+o"],
 		"command": "vulnerabilitiesofphp",
 	}
 ]
