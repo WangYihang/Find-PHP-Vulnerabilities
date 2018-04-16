@@ -3,7 +3,9 @@ A plug-in of sublime 2/3 which is able to find PHP vulnerabilities
 
 #### Install:
 ```
-
+1. Open "Package Control: Install Package"
+2. Type package name: "Find PHP Vulnerability"
+3. Press Enter to install
 ```
 
 #### Usage:
