@@ -1,3 +1,5 @@
 [
-    { "caption": "Find vulnerabilities of php files", "command": "vulnerabilitiesofphp" },
+    { "caption": "Find vulnerabilities of php files", "command": "vulnerabilitiesofphp", "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.php"}
+        ]},
 ]
