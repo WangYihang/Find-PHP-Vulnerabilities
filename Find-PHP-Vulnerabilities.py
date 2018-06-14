@@ -9,10 +9,8 @@ import json
 
 
 class VulnerabilitiesofphpCommand(sublime_plugin.TextCommand):
-    def onLoad(self, view):
-        self.rules = json.loads(open("rules.json").read())
-
     def run(self, edit):
+        rules = json.loads(open("rules.json").read())
         language = "en"  # "zh-cn"
         filename = self.view.file_name()
         suffixes = [
@@ -35,7 +33,7 @@ class VulnerabilitiesofphpCommand(sublime_plugin.TextCommand):
             line_number = 0
             for line in lines:
                 line_number += 1
-                for rule in self.rules:
+                for rule in rules:
                     result = re.search(rule['reg'], line)
                     if result != None:
                         data = {
