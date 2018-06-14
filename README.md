@@ -21,6 +21,5 @@ A plug-in of sublime 2/3 which is able to find PHP vulnerabilities
 - [ ] Multifile search
 
 #### Acknowledgement
-```
-Seay 源代码审计工具
-```
+ * [Seay 源代码审计工具](https://www.waitalone.cn/seay-source-code-auditv2.html)
+
